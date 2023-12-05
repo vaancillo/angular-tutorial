@@ -7,9 +7,7 @@ import { UserComponent } from './user/user.component';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, UserComponent],
-  template: `<h1>Hello world from AngularJS </h1>
-  <app-user></app-user>
-  `,
+  templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
